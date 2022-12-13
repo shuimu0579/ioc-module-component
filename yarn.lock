@@ -1054,6 +1054,13 @@
   "resolved" "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
 
+"vite-library-suimu@^0.0.1":
+  "integrity" "sha512-dnkYTCGZZ1bGm8i8OOS+FbuAEdO/8ZmJu455TpG9U6cE68hBMMdcQCOy5Ut3ZMPsw37a9f+R8lcK1rggwMADzQ=="
+  "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.1.tgz"
+  "version" "0.0.1"
+  dependencies:
+    "vue" "^3.2.16"
+
 "vite@^2.5.10", "vite@^2.6.4":
   "integrity" "sha512-JWnGmiO1IFwou9aUWS4N0kMyHcgTTt1+2f4bJyzgBJLJDyAqGEX3HewE4jgrL6V4d9+mxs+lZ4L8HL2kyVBe7A=="
   "resolved" "https://registry.npmjs.org/vite/-/vite-2.6.11.tgz"

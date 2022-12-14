@@ -1183,6 +1183,14 @@
   dependencies:
     "vue" "^3.2.16"
 
+"vite-library-suimu@^0.0.4":
+  "integrity" "sha512-d5JQR4fycf0uZxxjwS2uPKylqPgMQShcW0LbY4pLVR7NA/Zbwc99zXl0LOUnQYiPhvqFAa8cqjBYko5ot08oOQ=="
+  "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.4.tgz"
+  "version" "0.0.4"
+  dependencies:
+    "vite-library-suimu" "0.0.2"
+    "vue" "^3.2.16"
+
 "vite-library-suimu@0.0.2":
   "integrity" "sha512-D1bZpz+BvYtqB/nbXvHUPYNUj0IsRmjIsqF+PE6g3cGsf4vzWUQ6ciY5o12HF/f3ZlRbg5NCFzp0dY/iCUEEYA=="
   "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.2.tgz"

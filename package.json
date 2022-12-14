@@ -1,5 +1,6 @@
 {
   "name": "vite-library-suimu",
+  "private": false,
   "files": [
     "dist"
   ],

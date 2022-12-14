@@ -4,6 +4,12 @@
   </button>
 </template>
 
+<script>
+export default {
+  name: "VButton",
+}
+</script>
+
 <style lang="less" scoped>
   .button {
     color: green;

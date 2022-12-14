@@ -1,18 +1,21 @@
 /* eslint-disable import/prefer-default-export */
 
 
-import VButton from './VButton.vue'
-import VButton01 from './VButton01.vue'
+import VButton from './VButton/index.js'
+import VButton01 from './VButton01/index.js'
 
-VButton.install = (Vue) => {
-    Vue.component(VButton.name, VButton)
+const install = app => {
+    app.use(VButton);
+    app.use(VButton01);
 }
 
-VButton01.install = (Vue) => {
-    Vue.component(VButton01.name, VButton01)
+const TUI = {
+    install,
 }
 
 export { VButton, VButton01 }
+
+export default TUI
 
 
 

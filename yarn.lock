@@ -285,28 +285,21 @@
   "resolved" "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
   "version" "2.0.4"
 
-"ioc-module-component@^0.0.1":
-  "integrity" "sha512-dnkYTCGZZ1bGm8i8OOS+FbuAEdO/8ZmJu455TpG9U6cE68hBMMdcQCOy5Ut3ZMPsw37a9f+R8lcK1rggwMADzQ=="
-  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.1.tgz"
-  "version" "0.0.1"
-  dependencies:
-    "vue" "^3.2.16"
-
 "ioc-module-component@^0.0.4":
-  "integrity" "sha512-d5JQR4fycf0uZxxjwS2uPKylqPgMQShcW0LbY4pLVR7NA/Zbwc99zXl0LOUnQYiPhvqFAa8cqjBYko5ot08oOQ=="
+  "integrity" "sha512-4glEakWRXNFgq0rfFf54JtUeRj2Xrsytlmixh8wvVYTMYTBcV3FXGjkbnpjFQ2KP/JE91lqb3IVZHuXXidyMCA=="
   "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.4.tgz"
   "version" "0.0.4"
   dependencies:
-    "ioc-module-component" "0.0.2"
+    "ioc-module-component" "^0.0.4"
     "vue" "^3.2.16"
 
-"ioc-module-component@0.0.2":
-  "integrity" "sha512-D1bZpz+BvYtqB/nbXvHUPYNUj0IsRmjIsqF+PE6g3cGsf4vzWUQ6ciY5o12HF/f3ZlRbg5NCFzp0dY/iCUEEYA=="
-  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.2.tgz"
-  "version" "0.0.2"
+"ioc-module-component@^0.0.5":
+  "integrity" "sha512-hOZ+d0dBmJ/oViSSdC+EHYQ1yUR/8DBPw1efFi5JO2g6gl9CrpIsg9r9aT7P+vBsLdK86ZydECS5EuVm42iAbg=="
+  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.5.tgz"
+  "version" "0.0.5"
   dependencies:
-    "ioc-module-component" "^0.0.1"
-    "vue" "^3.2.16"
+    "ioc-module-component" "^0.0.4"
+    "vue" "^3.2.45"
 
 "is-core-module@^2.9.0":
   "integrity" "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw=="

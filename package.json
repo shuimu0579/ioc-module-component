@@ -21,7 +21,7 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
-    "ioc-module-component": "^0.0.4",
+    "ioc-module-component": "^0.0.5",
     "vue": "^3.2.45"
   },
   "devDependencies": {

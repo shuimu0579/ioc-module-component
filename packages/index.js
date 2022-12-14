@@ -1,25 +1,17 @@
-/* eslint-disable import/prefer-default-export */
-
-
 import VButton from './VButton/index.js'
 import VButton01 from './VButton01/index.js'
+import "./styles/reset.less"
 
 const install = app => {
     app.use(VButton);
     app.use(VButton01);
 }
-
-const TUI = {
+const IOCModuleComponent = {
     install,
 }
 
+// 公共组件按需加载
 export { VButton, VButton01 }
 
-export default TUI
-
-
-
-
-// export { default as VButton } from './VButton.vue';
-
-// export { default as VButton01 } from './VButton01.vue';
+// 公共组件整体加载
+export default IOCModuleComponent

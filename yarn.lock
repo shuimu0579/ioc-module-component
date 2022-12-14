@@ -232,6 +232,29 @@
   "resolved" "https://registry.npmmirror.com/image-size/-/image-size-0.5.5.tgz"
   "version" "0.5.5"
 
+"ioc-module-component@^0.0.1":
+  "integrity" "sha512-dnkYTCGZZ1bGm8i8OOS+FbuAEdO/8ZmJu455TpG9U6cE68hBMMdcQCOy5Ut3ZMPsw37a9f+R8lcK1rggwMADzQ=="
+  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.1.tgz"
+  "version" "0.0.1"
+  dependencies:
+    "vue" "^3.2.16"
+
+"ioc-module-component@^0.0.4":
+  "integrity" "sha512-d5JQR4fycf0uZxxjwS2uPKylqPgMQShcW0LbY4pLVR7NA/Zbwc99zXl0LOUnQYiPhvqFAa8cqjBYko5ot08oOQ=="
+  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.4.tgz"
+  "version" "0.0.4"
+  dependencies:
+    "ioc-module-component" "0.0.2"
+    "vue" "^3.2.16"
+
+"ioc-module-component@0.0.2":
+  "integrity" "sha512-D1bZpz+BvYtqB/nbXvHUPYNUj0IsRmjIsqF+PE6g3cGsf4vzWUQ6ciY5o12HF/f3ZlRbg5NCFzp0dY/iCUEEYA=="
+  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.2.tgz"
+  "version" "0.0.2"
+  dependencies:
+    "ioc-module-component" "^0.0.1"
+    "vue" "^3.2.16"
+
 "is-core-module@^2.2.0":
   "integrity" "sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw=="
   "resolved" "https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.0.tgz"
@@ -411,29 +434,6 @@
   dependencies:
     "escalade" "^3.1.1"
     "picocolors" "^1.0.0"
-
-"vite-library-suimu@^0.0.1":
-  "integrity" "sha512-dnkYTCGZZ1bGm8i8OOS+FbuAEdO/8ZmJu455TpG9U6cE68hBMMdcQCOy5Ut3ZMPsw37a9f+R8lcK1rggwMADzQ=="
-  "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.1.tgz"
-  "version" "0.0.1"
-  dependencies:
-    "vue" "^3.2.16"
-
-"vite-library-suimu@^0.0.4":
-  "integrity" "sha512-d5JQR4fycf0uZxxjwS2uPKylqPgMQShcW0LbY4pLVR7NA/Zbwc99zXl0LOUnQYiPhvqFAa8cqjBYko5ot08oOQ=="
-  "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.4.tgz"
-  "version" "0.0.4"
-  dependencies:
-    "vite-library-suimu" "0.0.2"
-    "vue" "^3.2.16"
-
-"vite-library-suimu@0.0.2":
-  "integrity" "sha512-D1bZpz+BvYtqB/nbXvHUPYNUj0IsRmjIsqF+PE6g3cGsf4vzWUQ6ciY5o12HF/f3ZlRbg5NCFzp0dY/iCUEEYA=="
-  "resolved" "https://registry.npmjs.org/vite-library-suimu/-/vite-library-suimu-0.0.2.tgz"
-  "version" "0.0.2"
-  dependencies:
-    "vite-library-suimu" "^0.0.1"
-    "vue" "^3.2.16"
 
 "vite@^2.5.10", "vite@^2.6.4":
   "integrity" "sha512-JWnGmiO1IFwou9aUWS4N0kMyHcgTTt1+2f4bJyzgBJLJDyAqGEX3HewE4jgrL6V4d9+mxs+lZ4L8HL2kyVBe7A=="

@@ -1,5 +1,5 @@
 {
-  "name": "vite-library-suimu",
+  "name": "ioc-module-component",
   "private": false,
   "files": [
     "dist"
@@ -19,7 +19,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vite-library-suimu": "^0.0.4",
+    "ioc-module-component": "^0.0.4",
     "vue": "^3.2.16"
   },
   "devDependencies": {

@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# IOC Common Components
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- 基于Vue3 + Vite
 
-## Recommended IDE Setup
+## 怎么开发公共组件
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- 在`packages`文件夹里建立公共组件，在`index.html`里面选择`<script type="module" src="/src/main.js"></script>`
+- 命令行执行 `npm run dev`
+
+## 打包好的组件--本地测试
+
+- 命令行执行 `npm run build`
+- 在`index.html`里面选择`<script type="module" src="/exercise/main.js"></script>`
+- 在`exercise/main.js`里面放开`import IOCModuleComponent from '../dist/my-lib.es.js';`
+- 命令行执行 `npm run dev`
+
+## 打包好的组件--npm包引入测试
+
+- 命令行执行 `npm run build`
+- 在`index.html`里面选择`<script type="module" src="/exercise/main.js"></script>`
+- 在`exercise/main.js`里面放开`import IOCModuleComponent from 'ioc-module-component';`
+- 命令行执行 `npm run dev`
+
+

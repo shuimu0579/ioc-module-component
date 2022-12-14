@@ -10,6 +10,10 @@ export default {
 }
 </script>
 
+<script setup> 
+
+</script>
+
 <style lang="less" scoped>
   .button {
     color: green;

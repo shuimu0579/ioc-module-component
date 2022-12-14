@@ -1,5 +1,5 @@
 <script setup>
-  import { VButton, VButton01 } from './components/';
+  import { VButton, VButton01 } from '../packages/';
 </script>
 
 <template>

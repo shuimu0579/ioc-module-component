@@ -6,7 +6,7 @@ const vue = require('@vitejs/plugin-vue');
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/index.js'),
+      entry: path.resolve(__dirname, './packages/index.js'),
       name: 'MyLib',
       fileName: (format) => `my-lib.${format}.js`,
     },

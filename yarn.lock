@@ -306,6 +306,14 @@
     "ioc-module-component" "^0.0.4"
     "vue" "^3.2.45"
 
+"ioc-module-component@^0.0.6":
+  "integrity" "sha512-zllAuknBNirVSmuLQyV65d4G4jyVpRFa2+cUVb6Ewhe1bsoP0AzAe+zYCZS4LY3TUJJf2HqpYC9KAcCarYfNBg=="
+  "resolved" "https://registry.npmjs.org/ioc-module-component/-/ioc-module-component-0.0.6.tgz"
+  "version" "0.0.6"
+  dependencies:
+    "ioc-module-component" "^0.0.5"
+    "vue" "^3.2.45"
+
 "is-core-module@^2.9.0":
   "integrity" "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw=="
   "resolved" "https://registry.npmjs.org/is-core-module/-/is-core-module-2.11.0.tgz"

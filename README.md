@@ -1,6 +1,9 @@
 # IOC Common Components
 
-- 基于Vue3 + Vite + ElementPlus
+- 基于Vue3
+- Vite
+- ElementPlus
+- less全局变量和方法的配置
 
 ## 怎么开发公共组件
 
@@ -11,7 +14,7 @@
 
 - 命令行执行 `npm run build`
 - 在`index.html`里面选择`<script type="module" src="/exercise/main.js"></script>`
-- 在`exercise/main.js`里面放开`import IOCModuleComponent from '../dist/my-lib.es.js';`
+- 在`exercise/main.js`里面放开`import IOCModuleComponent from '../dist/ioc-module-component.es.js';`
 - 命令行执行 `npm run dev`
 
 ## 打包好的组件--npm包引入测试

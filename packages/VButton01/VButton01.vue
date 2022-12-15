@@ -32,7 +32,7 @@ export default {
 
 <style lang="less" scoped>
   .button01 {
-    color: red;
+    color: @text-color;
     font-size: 30px;
   }
 </style>

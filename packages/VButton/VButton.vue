@@ -31,7 +31,7 @@ export default {
 
 <style lang="less" scoped>
   .button {
-    color: green;
+    color: @danger;
     font-size: 30px;
   }
   .el-link {

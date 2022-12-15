@@ -12,7 +12,7 @@
       "require": "./dist/my-lib.umd.js"
     }
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "dev": "vite",
     "build": "npm run prebuild && vite build",
@@ -21,6 +21,7 @@
     "prebuild": "npm run clean"
   },
   "dependencies": {
+    "element-plus": "^2.2.26",
     "ioc-module-component": "^0.0.6",
     "vue": "^3.2.45"
   },

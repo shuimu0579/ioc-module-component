@@ -1,6 +1,6 @@
 # IOC Common Components
 
-- 基于Vue3 + Vite
+- 基于Vue3 + Vite + ElementPlus
 
 ## 怎么开发公共组件
 

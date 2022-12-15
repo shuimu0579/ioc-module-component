@@ -1,8 +1,13 @@
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
 import VButton from './VButton/index.js'
 import VButton01 from './VButton01/index.js'
 import "./styles/reset.less"
 
 const install = app => {
+    app.use(ElementPlus)
+
     app.use(VButton);
     app.use(VButton01);
 }

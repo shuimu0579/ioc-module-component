@@ -15,13 +15,13 @@ export default defineConfig({
       fileName: (format) => `ioc-module-component.${format}.js`,
     },
     rollupOptions: {
-      // external: ['vue', 'element-plus'],
-      // output: {
-      //   globals: {
-      //     vue: 'Vue',
-      //     'element-plus': 'ElementPlus',
-      //   }
-      // },
+      external: ['vue', 'element-plus'],
+      output: {
+        globals: {
+          vue: 'Vue',
+          'element-plus': 'ElementPlus',
+        }
+      },
     },
     terserOptions: {
       compress: {

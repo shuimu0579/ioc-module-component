@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "element-plus": "^2.2.26",
+    "ioc-module-component": "^0.0.8",
     "vue": "^3.2.45"
   },
   "devDependencies": {

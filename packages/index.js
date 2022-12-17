@@ -1,4 +1,4 @@
-import ElementPlus from 'element-ui'
+import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
 import VButton from './VButton/index.js'
@@ -6,7 +6,7 @@ import VButton01 from './VButton01/index.js'
 import "./styles/reset.less"
 
 const install = app => {
-    app.use(ElementPlus)
+    app.use(ElementUI)
 
     app.use(VButton);
     app.use(VButton01);

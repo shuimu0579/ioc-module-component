@@ -1,8 +1,8 @@
-import ElementPlus from "element-ui"
+import ElementUI from "element-ui"
 import Vue from 'vue';
 import App from './App.vue';
 
-Vue.use(ElementPlus)
+Vue.use(ElementUI)
 
 new Vue({
   render: h => h(App)

@@ -1,4 +1,4 @@
-import { createApp } from 'vue';
+import Vue from 'vue';
 import App from './App.vue';
 
 // 打包好的组件--本地测试
@@ -9,8 +9,15 @@ import '../dist/style.css';
 // import IOCModuleComponent from 'ioc-module-component';
 // import '../node_modules/ioc-module-component/dist/style.css';
 
-const app = createApp(App);
-app.use(IOCModuleComponent);
-app.mount('#app')
+
+Vue.use(IOCModuleComponent);
+Vue.use(IOCModuleComponent)
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
+
+// const app = createApp(App);
+// app.use(IOCModuleComponent);
+// app.mount('#app')
 
 

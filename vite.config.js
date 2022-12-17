@@ -1,6 +1,6 @@
 const path = require('path');
 const { defineConfig } = require('vite');
-const vue = require('@vitejs/plugin-vue');
+import vue from '@vitejs/plugin-vue2'
 import { pathResolve } from './build/utils.js'
 
 const theme = pathResolve('./packages/styles/theme/ming.less')
@@ -15,11 +15,11 @@ export default defineConfig({
       fileName: (format) => `ioc-module-component.${format}.js`,
     },
     rollupOptions: {
-      external: ['vue', 'element-plus'],
+      external: ['vue', 'element-ui'],
       output: {
         globals: {
           vue: 'Vue',
-          'element-plus': 'ElementPlus',
+          'element-ui': 'ElementUI',
         }
       },
     },

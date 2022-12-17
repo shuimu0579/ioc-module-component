@@ -1,0 +1,12 @@
+{
+  "name": "ioc-module-component",
+  "main": "ioc-module-component.umd.js",
+  "module": "ioc-module-component.es.js",
+  "private": "false",
+  "version": "0.0.35",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.15.12",
+    "vue": "^2.7.5"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "ioc-module-component",
   "main": "ioc-module-component.umd.js",
   "module": "ioc-module-component.es.js",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "license": "ISC",
   "dependencies": {
     "element-ui": "^2.15.12",
